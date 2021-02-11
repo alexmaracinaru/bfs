@@ -35,6 +35,7 @@ const generateIt = () => {
     if (inputText.endsWith(".jpg")) {
       outcome = ".jpg";
     } else if (inputText.endsWith(".png")) {
+      outcome = ".png";
     } else {
       outcome = "not a pic"; // what should this be?
     }
