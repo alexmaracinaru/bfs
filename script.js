@@ -1,6 +1,4 @@
 const generateIt = () => {
-  // parseInt is converting strings into numbers. parseFloat allows for decimals.
-
   //const fullName = "Alexandra Maracinaru";
   const inputText = document.querySelector("#input").value;
   const optionBox = document.querySelector("#dropdown").value;
